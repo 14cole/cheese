@@ -1,0 +1,9 @@
+MODE            = "stl_xyz"
+STL_PATH        = "test_cylinder.stl"
+STL_UNITS       = "inches"
+XYZ_POINTS      = [[ 6.0,  0.0, 0.0],   # normal = (+1, 0, 0) — az=0 side
+                   [ 0.0,  6.0, 0.0],   # normal = (0, +1, 0) — az=90 side
+                   [-6.0,  0.0, 0.0]]   # normal = (-1, 0, 0) — az=180 side
+XYZ_UNITS       = "inches"
+CHECK_SHADOWING = True
+COHERENT_SUM    = False
